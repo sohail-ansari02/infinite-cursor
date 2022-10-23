@@ -1,5 +1,5 @@
-from turtle import width
 import pyautogui as gui;
+gui.FAILSAFE = False;
 WIDTH, HEIGHT = gui.size(); #X Y
 # print(WIDTH, HEIGHT);
 while True:
