@@ -1,7 +1,7 @@
 from turtle import width
 import pyautogui as gui;
 WIDTH, HEIGHT = gui.size(); #X Y
-print(WIDTH, HEIGHT);
+# print(WIDTH, HEIGHT);
 while True:
     width, height = gui.position();
     if(width == WIDTH-1):
