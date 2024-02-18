@@ -5,7 +5,13 @@ When the mouse cursor reaches the edges of the the screen, the script automatica
 
 ## Usage
 
+Install the required packages:
+
+```
+pip install -r requirements.txt
+```
 Run the script using the following command:
 
 ```bash
 python main.py
+```
